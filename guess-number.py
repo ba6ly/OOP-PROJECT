@@ -69,6 +69,7 @@ def play():
         print(give_hint(guess, number))
         print("   ➤ Go Higher!" if guess < number else "   ➤ Go Lower!")
         print(f"Attempts left: {attempts}\n")
+        print(f"Attempts left: {attempts}\n")
 
     if attempts == 0:
         print(f"❌ You're out of attempts! The correct number was {number}.")
